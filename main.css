@@ -3,22 +3,34 @@ h1 {
     font-size: 50px;
 }
 
+h2 {
+    color: white;
+}
+
+p {
+    color: white;
+}
+
 img {
     width: 250px;
     height: 250px;
-    mix-blend-mode: multiply;
+    mix-blend-mode: screen;
+    filter: drop-shadow(0 0 10px white);
+    border-radius: 15px;
 }
 
 .OrangeTextHTML {
     color: rgb(227, 76, 38);
+    filter: drop-shadow(0 0 10px rgb(227, 76, 38));
 }
 
 .BlueTextCSS {
     color: rgb(38, 77, 228);
+    filter: drop-shadow(0 0 10px rgb(38, 77, 228));
 }
 
 body {
-    background-color: rgb(173, 216, 230, 0.5);
+    background-color: rgb(1, 2, 3);
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -32,7 +44,9 @@ body {
     padding: 20px;
     margin-bottom: 20px;
     border-radius: 15px;
-
+    animation: MyAnimation 5s infinite linear;
+    backdrop-filter: blur(15px);
+    color: white;
 }
 
 .squarebox2 {
@@ -40,7 +54,9 @@ body {
     padding: 20px;
     margin-bottom: 20px;
     border-radius: 15px;
-
+    animation: MyAnimation 5s infinite linear;
+    backdrop-filter: blur(15px);
+    color: white;
 }
 
 
@@ -49,4 +65,20 @@ body {
     padding: 20px;
     margin-bottom: 20px;
     border-radius: 15px;
+    animation: MyAnimation 5s infinite linear;
+    backdrop-filter: blur(15px);
+    color: white;
 }
+
+@keyframes MyAnimation {
+    0% {background-color: rgb(70, 130, 180);}
+    15% {background-color: rgb(0, 13, 193);}
+    30% {background-color: rgb(65, 28, 175);}
+    45% {background-color: rgb(156, 7, 236);}
+    45% {background-color: rgb(70, 130, 180);}
+    60% {background-color: rgb(0, 13, 193);}
+    75% {background-color: rgb(65, 28, 175);}
+    90% {background-color: rgb(156, 7, 236);}
+    100% {background-color: rgb(70, 130, 180);}
+
+    }
