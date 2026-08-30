@@ -57,6 +57,7 @@ body {
     animation: MyAnimation 5s infinite linear;
     backdrop-filter: blur(15px);
     color: white;
+    transition: transform 0.5s ease;
 }
 
 
@@ -68,6 +69,7 @@ body {
     animation: MyAnimation 5s infinite linear;
     backdrop-filter: blur(15px);
     color: white;
+    
 }
 
 @keyframes MyAnimation {
@@ -106,4 +108,10 @@ body {
     100% {
         background-color: rgb(70, 130, 180);
     }
+}
+
+.squarebox1:hover, .squarebox2:hover, .squarebox3:hover {
+    transform: scale(1.1);
+    transition: transform 0.5s ease;
+    box-shadow: 0 0 20px white;
 }
