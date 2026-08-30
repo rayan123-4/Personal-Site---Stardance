@@ -116,7 +116,7 @@ body {
 }
 
 .squarebox1:hover {
-transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 .squarebox2:hover {
@@ -124,5 +124,5 @@ transform: scale(1.1);
 }
 
 .squarebox3:hover {
-transform: scale(1.1);
+    transform: scale(1.1);
 }
