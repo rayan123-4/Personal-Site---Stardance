@@ -1,6 +1,9 @@
 # Personal-Site---Stardance
 This is my Personal Website that I have made to showcase my use of **HTML** and **CSS** and to learn 3 interesting facts about me.
 
+<img width="1364" height="763" alt="Personal site preview 2026-08-31 16 28 54" src="https://github.com/user-attachments/assets/35edb17e-b531-49f7-a311-4b390e029d38" />
+
+
 # How I made it:
 - It's a simple static website that I have made using **HTML** and **CSS**.
 - This project was made through **GitHub Codespaces.**
