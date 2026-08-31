@@ -5,8 +5,9 @@ This is my Personal Website that I have made to showcase my use of **HTML** and 
 
 
 # How I made it:
-- It's a simple static website that I have made using **HTML** and **CSS**.
+- It's a simple static website that I have made using **HTML** for the content and **CSS** for the styling and animations.
 - This project was made through **GitHub Codespaces.**
+- It includes some nice changing color effects and some interactive cursor hover animations.
 - Here is the live website link for anyone to try out: **https://rayan123-4.github.io/Personal-Site---Stardance/**
 - I used **W3Schools tutorials** to help get me started on what to do, though most of it I had already known.
 
