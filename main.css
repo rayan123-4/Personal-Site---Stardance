@@ -83,6 +83,19 @@ body {
     transition: transform 0.5s ease;
 }
 
+squarebox-backspace {
+    align-self: flex-end;
+    background-color: rgb(137, 207, 240);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    animation: MyAnimation 5s infinite linear;
+    backdrop-filter: blur(15px);
+    color: white;
+    cursor: pointer;
+    transition: transform 0.5s ease;
+}
+
 @keyframes MyAnimation {
     0% {
         background-color: rgb(70, 130, 180);
