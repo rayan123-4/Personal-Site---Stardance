@@ -85,7 +85,7 @@ body {
 
 .squarebox-backspace {
     display: flex;
-    justify-content: left;
+    justify-content: flex-start;
     align-items: flex-end;
     background-color: rgb(137, 207, 240);
     padding: 20px;
