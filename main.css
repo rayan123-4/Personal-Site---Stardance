@@ -35,7 +35,7 @@ img {
     filter: drop-shadow(0 0 10px rgb(38, 77, 228));
 }
 
-body {
+.index.html body {
     background-color: rgb(1, 2, 3);
     text-align: center;
     display: flex;
