@@ -45,6 +45,10 @@ img {
     cursor: pointer;
 }
 
+body {
+    background-color: rgb(1, 2, 3);
+}
+
 
 .squarebox1 {
     background-color: rgb(137, 207, 240);
@@ -84,10 +88,9 @@ img {
 }
 
 .squarebox-backspace {
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-end;
-    height: 20px;
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
     background-color: rgb(137, 207, 240);
     padding: 20px;
     margin-bottom: 20px;
