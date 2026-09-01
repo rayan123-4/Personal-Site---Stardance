@@ -84,6 +84,8 @@ body {
 }
 
 .squarebox-backspace {
+    width: auto;
+    height: auto;
     display: flex;
     justify-content: flex-start;
     align-items: flex-end;
