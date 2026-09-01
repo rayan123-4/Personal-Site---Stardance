@@ -45,7 +45,7 @@ img {
     cursor: pointer;
 }
 
-body {
+html, body {
     background-color: rgb(1, 2, 3);
 }
 
