@@ -83,8 +83,10 @@ body {
     transition: transform 0.5s ease;
 }
 
-squarebox-backspace {
-    align-self: flex-end;
+.squarebox-backspace {
+    display: flex;
+    justify-content: left;
+    align-items: flex-end;
     background-color: rgb(137, 207, 240);
     padding: 20px;
     margin-bottom: 20px;
