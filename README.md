@@ -13,7 +13,7 @@ This is my Personal Website that I have made to showcase my use of **HTML** and 
 
 ## To look at the source code:
 ```bash
-- git clone https://github.com/rayan123-4/Personal-Site---Stardance
+git clone https://github.com/rayan123-4/Personal-Site---Stardance
 ```
 
 ## AI note:
