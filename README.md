@@ -12,7 +12,9 @@ This is my Personal Website that I have made to showcase my use of **HTML** and 
 - I used **W3Schools tutorials** to help get me started on what to do, though most of it I had already known.
 
 ## To look at the source code:
+```bash
 - git clone https://github.com/rayan123-4/Personal-Site---Stardance
+```
 
 ## AI note:
 - I used **AI** to learn how to make the cool animations, but I did not just raw copy and paste.
